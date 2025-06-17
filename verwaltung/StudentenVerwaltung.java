@@ -36,7 +36,7 @@ public class StudentenVerwaltung {
         List<Student> ergebnisse = new ArrayList<>();
         String sql = "SELECT * FROM student WHERE nachname LIKE ?";
         try (Connection conn = Database.connect(); PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            pstmt.setString(1, nachname);
+           pstmt.setString(1, "%" + nachname + "%");
             ResultSet rs = pstmt.executeQuery();
             while (rs.next()) {
                 ergebnisse.add(new Student(

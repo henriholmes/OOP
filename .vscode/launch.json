@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Start GUI (JavaFX 21)",
+      "request": "launch",
+      "mainClass": "gui.Main",
+      "vmArgs": "--module-path \"C:/Programme/javafx-sdk-21.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 {
   "java.project.referencedLibraries": [
-    "C:/Programme/javafx-sdk-21.0.2/lib/**/*.jar"
+    "C:/Programme/javafx-sdk-21.0.2/lib/**/*.jar",
+    "C:/Studium/OOP/OOP/lib/sqlite-jdbc-3.43.2.1.jar",
+    "C:/Studium/OOP/OOP/lib/slf4j-api-2.0.7.jar",
+    "C:/Studium/OOP/OOP/lib/slf4j-simple-2.0.7.jar"
   ]
 }

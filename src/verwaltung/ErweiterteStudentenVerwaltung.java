@@ -1,4 +1,4 @@
-package src.verwaltung;
+package verwaltung;
 
 import util.Database;
 
@@ -9,7 +9,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import src.model.*;
+import model.*;
 
 /**
  * Erweiterte Studentenverwaltung mit zusätzlichen Funktionen

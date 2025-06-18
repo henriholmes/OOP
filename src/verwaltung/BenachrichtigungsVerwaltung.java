@@ -1,4 +1,4 @@
-package src.verwaltung;
+package verwaltung;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import src.model.*;
+import model.*;
 
 /**
  * Verwaltungsklasse für automatische Benachrichtigungen

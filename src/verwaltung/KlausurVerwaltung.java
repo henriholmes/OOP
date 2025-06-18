@@ -1,4 +1,4 @@
-package src.verwaltung;
+package verwaltung;
 
 import model.*;
 import util.Database;
@@ -145,3 +145,4 @@ public class KlausurVerwaltung {
             System.err.println("Fehler beim Löschen der Klausur: " + e.getMessage());
         }
     }
+}

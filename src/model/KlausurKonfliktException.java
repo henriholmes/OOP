@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 /**
  * Exception für Konflikte bei Klausuranmeldungen
